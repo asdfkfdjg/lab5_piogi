@@ -22,7 +22,7 @@ double del (int A, int B)
 }
 
 bool flag1 = true;
-bool flag2 = true;
+
 while (flag1) {
     int number;
     Console.WriteLine("Введите А");
@@ -52,6 +52,7 @@ while (flag1) {
         Console.WriteLine("B должно быть целочисленным");
         continue;
     }
+    bool flag2 = true;
     while (flag2)
     {
         Console.WriteLine("Меню операций:");
