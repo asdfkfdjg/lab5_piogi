@@ -1,5 +1,10 @@
 ﻿using System;
 
+int minus (int A, int B)
+{
+    return A - B;
+}
+
 bool flag1 = true;
 bool flag2 = true;
 while (flag1) {
